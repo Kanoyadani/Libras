@@ -1,0 +1,128 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* header */
+
+#cabeca {
+  padding: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: #1d3557;
+  height: 15vh;
+  gap: 50px;
+}
+
+#escuta {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: #457b9d;
+  font-size: 25px;
+}
+
+.idioma {
+  height: 5vh;
+  width: 8vw;
+  border-radius: 10px;
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  color: #457b9d;
+  border: none;
+  font-size: 15px;
+}
+
+#titulo {
+  color: #000;
+}
+
+/* section */
+
+#corpo {
+  display: flex;
+  flex-direction: row;
+}
+
+#corpo_1 {
+  width: 100vw;
+  background-color: #1d3557;
+  height: 85vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#corpo_2 {
+  width: 35vw;
+  height: 85vh;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: #fff;
+}
+#comecar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comeca-buton {
+  width: 350px;
+  height: 40px;
+  display: flex;
+  border-radius: 15px;
+  border: none;
+  gap: 30px;
+  text-align: center;
+  background-color: #457b9d;
+  color: #fff;
+  position: relative;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.comeca-buton:hover {
+  border: #000 3px solid;
+  transition: 0.5s;
+}
+/*teste*/
+
+#teste {
+  width: 30vw;
+  height: 65vh;
+  border-radius: 10px;
+}
+
+/* footer */
+
+#pe {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 3px solid rgb(125, 124, 124);
+  background-color: #f1faee;
+  height: 10vh;
+  text-align: center;
+  align-items: center;
+}
+
+.links {
+  color: #000;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+::-webkit-scrollbar {
+  background-color: #000;
+}
